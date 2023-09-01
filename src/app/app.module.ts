@@ -3,13 +3,17 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CadastroCarrosComponent } from './components/cadastro-carros/cadastro-carros.component';
-import { CadastroClientesComponent } from './components/cadastro-clientes/cadastro-clientes.component';
-import { CadastroVendasComponent } from './components/cadastro-vendas/cadastro-vendas.component';
+import { CadastroCarrosComponent } from './components/cadastrocarros/cadastrocarros.component';
+import { CadastroClientesComponent } from './components/cadastroclientes/cadastroclientes.component';
+import { CadastroVendasComponent } from './components/cadastrovendas/cadastrovendas.component';
 import { EstoqueComponent } from './components/estoque/estoque.component';
 import { HomeComponent } from './components/home/home.component';
 import { FinanciamentoComponent } from './components/financiamento/financiamento.component';
-import { LoginComponent } from './components/login/login.component'
+import { LoginComponent } from './components/login/login.component';
+import { HomesisComponent } from './components/homesis/homesis.component';
+import { ListaCarrosComponent } from './components/listacarros/listacarros.component';
+import { ListaClientesComponent } from './components/listaclientes/listaclientes.component';
+import { ListaVendasComponent } from './components/listavendas/listavendas.component'
 
 
 @NgModule({
@@ -21,7 +25,11 @@ import { LoginComponent } from './components/login/login.component'
     EstoqueComponent,
     HomeComponent,
     FinanciamentoComponent,
-    LoginComponent
+    LoginComponent,
+    HomesisComponent,
+    ListaCarrosComponent,
+    ListaClientesComponent,
+    ListaVendasComponent
 
   ],
   imports: [
